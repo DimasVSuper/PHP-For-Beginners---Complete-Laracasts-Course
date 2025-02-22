@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+/**
+ * Menyaring array buku berdasarkan penulis tertentu.
+ *
+ * @param array $books Array buku yang akan disaring.
+ * @param string $author Penulis yang akan disaring.
+ * @return array Array buku yang disaring berdasarkan penulis yang ditentukan.
+ *
+ * Contoh penggunaan:
+ * $filteredBooks = filterByAuthor($books, "Andy Weir");
+ *
+ * @link https://www.php.net/manual/en/language.types.array.php Dokumentasi tentang array di PHP
+ * @link https://www.php.net/manual/en/control-structures.foreach.php Dokumentasi tentang loop foreach di PHP
+ */
+<!-- function filterByAuthor($books, $author) {
+    $filteredBooks = [];
+    foreach($books as $book) {
+        if($book['author'] === $author) {    
+            $filteredBooks[] = $book;
+        }
+    }
+    return $filteredBooks;
+} -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
